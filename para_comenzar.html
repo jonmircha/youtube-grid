@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprendiendo Grid CSS</title>
+  <style>
+    html {
+      box-sizing: border-box;
+      font-size: 16px;
+      font-family: sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    *,
+    *::after,
+    *::before {
+      box-sizing: inherit;
+    }
+
+    a[href="#top"] {
+      margin: 1rem;
+      display: block;
+      font-size: 2rem;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    h2 {
+      margin-top: 50vh;
+      text-align: center;
+    }
+
+    img {
+      margin: auto;
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .menu {
+      margin-bottom: 100vh;
+      font-size: 125%;
+    }
+
+    .menu li {
+      margin-bottom: 1rem;
+    }
+
+    .container {
+      margin: 0 auto;
+      width: 80%;
+      height: 80vh;
+      background-color: #222;
+      border: medium solid #000;
+    }
+
+    .item {
+      padding: 1rem;
+      font-size: 1.25rem;
+      background-color: #666;
+      border: medium solid #999;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1 id="top">Aprendiendo Grid CSS</h1>
+  <ul class="menu">
+    <li><a href="#grid-terms">Conceptos básicos</a></li>
+    <li><a href="#grid-explicit">Grid Explicita</a></li>
+    <li><a href="#grid-line-names">Grid con Nombres de Línea</a></li>
+    <li><a href="#grid-areas">Grid con Áreas</a></li>
+    <li><a href="#grid-implicit">Grid Implícita</a></li>
+    <li><a href="#grid-flow">Flujo de la Grid</a></li>
+    <li><a href="#grid-layer">Grid Items en Capas (superposición)</a></li>
+    <li><a href="#grid-order">Ordenamiento de Grid Items</a></li>
+    <li><a href="#grid-align">Alineamiento de Grid Items</a></li>
+    <li><a href="#grid-align-tracks">Alineamiento de Grid Tracks</a></li>
+    <li><a href="#grid-min-max">Tamaños Máximos y Mínimos de Grid Tracks</a></li>
+    <li><a href="#grid-repeat">Grid con Patrones Repetitivos</a></li>
+    <li><a href="#grid-dynamics">Grids Dinámicas</a></li>
+    <li><a href="#grid-responsive">Responsive sin Media Queries</a></li>
+    <li><a href="#grid-nested">Grids Anidados</a></li>
+    <li><a href="#subgrid">Subgrids</a></li>
+    <li><a href="grid_layout.html">Grid Layout con Líneas</a></li>
+    <li><a href="grid_layout_areas.html">Grid Layout con Áreas</a></li>
+    <li><a href="https://jonmircha.com/grid" target="_blank">Más Recursos</a></li>
+  </ul>
+  <h2 id="grid-terms">Conceptos Básicos</h2>
+  <a href="#top">🔝</a>
+  <img src="https://jonmircha.com/img/blog/grid-conceptos.png" alt="Conceptos Básicos">
+  <h2 id="grid-explicit">Grid Explícita</h2>
+  <a href="#top">🔝</a>
+  <section class="container grid-explicit"></section>
+  <h2 id="grid-line-names">Grid con Nombres de Línea</h2>
+  <a href="#top">🔝</a>
+  <section class="container grid-line-names"></section>
+  <h2 id="grid-areas">Grid con Áreas</h2>
+  <a href="#top">🔝</a>
+  <section class="container grid-areas"></section>
+  <h2 id="grid-implicit">Grid Implícita</h2>
+  <a href="#top">🔝</a>
+  <section class="container grid-implicit"></section>
+  <h2 id="grid-flow">Flujo de la Grid</h2>
+  <a href="#top">🔝</a>
+  <section class="container grid-flow"></section>
+  <h2 id="grid-layer">Grid Items en Capas (superposición)</h2>
+  <a href="#top">🔝</a>
+  <section class="container grid-layers"></section>
+  <h2 id="grid-order">Ordenamiento de Grid Items</h2>
+  <a href="#top">🔝</a>
+  <section class="container grid-order"></section>
+  <h2 id="grid-align">Alineamiento de Grid Items</h2>
+  <a href="#top">🔝</a>
+  <section class="container grid-align"></section>
+  <h2 id="grid-align-tracks">Alineamiento de Grid Tracks</h2>
+  <a href="#top">🔝</a>
+  <section class="container grid-align-tracks"></section>
+  <h2 id="grid-min-max">Tamaños Máximos y Mínimos de Grid Tracks</h2>
+  <a href="#top">🔝</a>
+  <section class="container grid-min-max"></section>
+  <h2 id="grid-repeat">Grid con Patrones Repetitivos</h2>
+  <a href="#top">🔝</a>
+  <section class="container grid-repeat"></section>
+  <h2 id="grid-dynamics">Grids Dinámicas</h2>
+  <a href="#top">🔝</a>
+  <section class="container grid-dynamics"></section>
+  <h2 id="grid-responsive">Responsive sin Media Queries</h2>
+  <a href="#top">🔝</a>
+  <section class="container grid-responsive"></section>
+  <h2 id="grid-nested">Grids Anidados</h2>
+  <a href="#top">🔝</a>
+  <section class="container grid-nested"></section>
+  <h2 id="subgrid">Subgrids</h2>
+  <a href="#top">🔝</a>
+  <section class="container grid"></section>
+</body>
+
+</html>
